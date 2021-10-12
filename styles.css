@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    margin: 50px;
+}
+section {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+}
+header {
+    display: inline-flex;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 600px;
+    padding-top: 10px;
+    align-items: center;
+}
+header > div {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+header>div>i{
+    font-size: 50px;
+    margin-left: 10px;
+}
+h1{
+    width: 200px;
+    margin: 0;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+header>a {
+    width: 100px;
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+}
+figure {
+    width: 600px;
+    margin: 0;
+}
+img {
+    width: 100%;
+    height: 600px;
+}
+nav {
+    height: 50px;
+}
+.profile{
+    font-size: 200%;
+    margin-right: 10px;
+    color: black;
+}
+nav > a:first-child:visited{
+    color: red;
+}
+nav > a:nth-child(2):hover, nav > a:nth-child(3):hover, nav>a:last-child:hover{
+    color: grey;
+}
+nav a:last-child {
+    float: right;
+}
+.descripcion {
+    padding: 15px;
+}
+.bold{
+    font-weight: bold;
+}
